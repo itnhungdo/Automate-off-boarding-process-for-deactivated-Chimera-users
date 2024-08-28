@@ -1,0 +1,19 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  annotations:
+    helix.engtools.net/code-base: https://gitlab.myteksi.net/cauldron/chimera-mlpipelines/chimera-mlpipeline-cauldron-admin/-/blob/master/pipelines/cauldron-offboarding-test/pipeline.yaml
+    helix.engtools.net/oncall-tag: '@oncall-chimera'
+    helix.engtools.net/production-task: ""
+    helix.engtools.net/project-management: ""
+    helix.engtools.net/service-channel: '#chimera-users'
+    helix.engtools.net/service-wiki: https://wiki.grab.com/display/MS/Getting+Started+with+MLPipeline
+  description: A description of your pipeline
+  labels:
+    criticality: experimental
+  name: mlp-cauldron-admin-cauldron-offboarding-test
+  tags: []
+spec:
+  lifecycle: development
+  primaryPic: itn.hung.do
+  type: mlp-pipeline

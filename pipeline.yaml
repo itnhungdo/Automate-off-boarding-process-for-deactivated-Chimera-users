@@ -1,0 +1,13 @@
+apiVersion: ml.chimera.kubebuilder.io/v1
+kind: Pipeline
+metadata:
+  name: cauldron-offboarding-test
+spec:
+  commonUtils: ""
+  description: Add your own description here.
+  mlFrameworkType: tensorflow
+  owner: itn.hung.do
+  projectConfig: ./config
+  projectUtils: ./utils
+  scheduler: airflow
+  teamUtils: ""

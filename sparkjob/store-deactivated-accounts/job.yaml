@@ -1,0 +1,9 @@
+apiVersion: ml.chimera.kubebuilder.io/v1
+kind: SparkJob
+metadata:
+  name: store-deactivated-accounts
+spec:
+  executors: 1
+  image: 095116963143.dkr.ecr.ap-southeast-1.amazonaws.com/spark-on-k8s/curated-base:v202402210724-spark3.5.0-hadoop3.3.6
+  instanceType: xlarge-arm64
+  mainApplicationFile: job.py

@@ -1,0 +1,6 @@
+apiVersion: ml.chimera.kubebuilder.io/v1
+kind: Experiment
+metadata:
+  name: cauldron-offboarding-test-experiment
+spec:
+  pipeline: cauldron-offboarding-test
